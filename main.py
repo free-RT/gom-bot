@@ -6,6 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 intent=discord.Intents.all()
-bot = commands.Bot(command_prefix='gm!',intents=intent)
+bot = commands.Bot(command_prefix='gm2!',intents=intent)
 
 bot.run(os.environ["TOKEN"])
